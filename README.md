@@ -8,6 +8,8 @@
 An end-to-end **Machine Learning Regression Pipeline** and production-ready **Analytics Dashboard** built with Streamlit. This repository handles the complete machine learning lifecycle—from automated data preprocessing and hyperparameter optimization to statistical model benchmarking, visualization, and cloud deployment.
 
 ---
+## Live Demo:
+Streamlit App:https://aimlmodelcomparison.streamlit.app/
 
 ## 📌 Executive Summary
 
