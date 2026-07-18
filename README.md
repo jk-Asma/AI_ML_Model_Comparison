@@ -60,33 +60,28 @@ Three regression architectures were evaluated under rigorous train-test splittin
 
 ### 1️⃣ Actual vs. Predicted Target Values
 Evaluates the continuous target correlation. Tight clustering along the diagonal reference line demonstrates strong model convergence and reliable generalization across feature ranges.
-<p align="center">
-  <img src="images/actual_vs_predicted.png" width="750" alt="Actual vs Predicted Values">
-</p>
+
+![Actual vs. Predicted](Images/actual_vs_predicted.png)
+
 
 ---
 
 ### 2️⃣ Model Performance Comparison
 A comparative breakdown highlighting $R^2$ maximization and corresponding $RMSE$ minimization across the candidate architectures, supporting programmatic model selection.
-<p align="center">
-  <img src="images/model_comparison_r2.png" width="750" alt="Model Evaluation Benchmarks">
-</p>
+![Model Performance Comparison](Images/model_comparison_r2.png)
 
 ---
 
 ### 3️⃣ Residual Analysis
 Monitors heteroscedasticity and variance distribution. A balanced, non-systemic scatter around the zero-error axis indicates highly unbiased prediction errors.
-<p align="center">
-  <img src="images/residual_analysis.png" width="750" alt="Model Residual Analysis">
-</p>
+![Residual Analysis](Images/residuals_analysis.png)
 
 ---
 
 ### 4️⃣ Ridge Regression Alpha Optimization
 Maps the optimization path for the L2 regularization parameter ($\alpha$). This visual guide demonstrates the impact of hyperparameter tuning on controlling variance and stabilizing validation scores.
-<p align="center">
-  <img src="images/ridge_alpha_tuning.png" width="750" alt="Ridge Alpha Tuning Path">
-</p>
+![Ridge Regression Alpha Optimization](Images/ridge_alpha_tuning.png)
+
 
 ---
 
