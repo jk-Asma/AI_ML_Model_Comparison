@@ -107,7 +107,7 @@ Maps the optimization path for the L2 regularization parameter ($\alpha$). This 
 California-House-Price-Prediction/
 │
 ├── .github/                     # Automated workflows / CI configurations
-├── images/                      # Static assets, UI components, and diagnostic plots
+├── Images/                      # Static assets, UI components, and diagnostic plots
 │   ├── actual_vs_predicted.png
 │   ├── model_comparison.png
 │   ├── residual_plot.png
